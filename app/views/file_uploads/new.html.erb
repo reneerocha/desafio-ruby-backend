@@ -1,0 +1,8 @@
+
+<h1>Upload for Transactions</h1>
+ 
+<%= form_with model: @transaction, url: transaction_file_uploads_path(@transaction),
+              method: :post, local: true do |f| %>
+  <%= f.file_field :files, multiple: true %><br /><br />
+  <%= f.submit 'Upload' %>
+<% end %>

@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  type: 
+  date: MyString
+  value: MyString
+  cpf: MyString
+  card: MyString
+  hour: MyString
+  owner: MyString
+  store: MyString
+
+two:
+  type: 
+  date: MyString
+  value: MyString
+  cpf: MyString
+  card: MyString
+  hour: MyString
+  owner: MyString
+  store: MyString
