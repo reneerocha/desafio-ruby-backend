@@ -80,6 +80,7 @@ GEM
       activesupport (>= 4.2.0)
     i18n (1.8.9)
       concurrent-ruby (~> 1.0)
+    iconv (1.0.8)
     io-like (0.3.1)
     jbuilder (2.11.2)
       activesupport (>= 5.0.0)
@@ -197,10 +198,10 @@ DEPENDENCIES
   capybara (>= 2.15)
   chromedriver-helper
   coffee-rails (~> 4.2)
+  iconv
   jbuilder (~> 2.5)
   listen (>= 3.0.5, < 3.2)
   pg (>= 0.18, < 2.0)
-  public_suffix
   puma (~> 3.11)
   rails (~> 5.2.4, >= 5.2.4.5)
   sass-rails (~> 5.0)
